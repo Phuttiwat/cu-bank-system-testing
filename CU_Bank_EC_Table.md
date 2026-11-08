@@ -75,7 +75,7 @@ Pre-condition กลาง (ใช้กับฟังก์ชัน 3–6):
 | EQ22 | จำนวนเต็ม > 0 (Deposit ไม่จำกัดค่าสูงสุด) | Valid | `500` | ยอดคงเหลือและประวัติรายการถูกอัปเดต |
 | EQ23 | ไม่ใช่ตัวเลข | Invalid | `abc` หรือช่องว่าง | Invalid balance amount. Please enter a valid number. |
 | EQ24 | ทศนิยม | Invalid | `10.5` | The balance amount must be a whole number with no decimals. |
-| EQ25 | ≤ 0 | Invalid | `0`, `-100` | The amount must be greater than 0. Please enter a positive number. |
+| EQ25 | ≤ 0 | Invalid | `0` | The amount must be greater than 0. Please enter a positive number. |
 | EQ26 *(W/T/B)* | 0 < amount < balance | Valid | `300` | ยอดคงเหลือและประวัติรายการถูกอัปเดต |
 | EQ27 *(W/T/B)* | amount ≥ balance | Invalid | `1500` และ `1000` (ค่าขอบ) | Your balance is not enough to complete the withdrawal / transfer / bill payment. |
 
