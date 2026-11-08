@@ -1,0 +1,19 @@
+# dependencies and build output
+node_modules/
+build/
+
+# Playwright run output (re-created on every run)
+e2e/test-results/
+e2e/playwright-report/
+e2e/results.json
+
+# not shared: instructor documents, report drafts and local exports
+*.pdf
+*.zip
+report/
+export/
+CU_Bank_Report_Draft.md
+
+.DS_Store
+__pycache__/
+~$*

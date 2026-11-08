@@ -1,0 +1,194 @@
+{
+ "TC1": {
+  "status": "passed",
+  "actual": "ไม่มี error message; alert: \"Registration successful!\"; URL: /"
+ },
+ "TC2": {
+  "status": "passed",
+  "actual": "error: \"Your account ID should contain numbers only.\"; URL: /register"
+ },
+ "TC3": {
+  "status": "passed",
+  "actual": "error: \"Your account ID must be exactly 10 digits long.\"; URL: /register"
+ },
+ "TC4": {
+  "status": "passed",
+  "actual": "error: \"Your account ID must be exactly 10 digits long.\"; URL: /register"
+ },
+ "TC5": {
+  "status": "failed",
+  "actual": "error: \"This account ID is already in use. Please use a different account ID.\"; URL: /register"
+ },
+ "TC6": {
+  "status": "passed",
+  "actual": "error: \"Your password should contain numbers only.\"; URL: /register"
+ },
+ "TC7": {
+  "status": "passed",
+  "actual": "error: \"Your password must be exactly 4 digits long.\"; URL: /register"
+ },
+ "TC8": {
+  "status": "passed",
+  "actual": "error: \"Your password must be exactly 4 digits long.\"; URL: /register"
+ },
+ "TC9": {
+  "status": "failed",
+  "actual": "error: \"The combined length of your first and last name must not exceed 30 characters.\"; URL: /register"
+ },
+ "TC10": {
+  "status": "passed",
+  "actual": "ไม่มี error message; balance = 0; URL: /account/"
+ },
+ "TC11": {
+  "status": "passed",
+  "actual": "error: \"Your account ID should contain numbers only.\"; URL: /"
+ },
+ "TC12": {
+  "status": "passed",
+  "actual": "error: \"Your account ID must be exactly 10 digits long.\"; URL: /"
+ },
+ "TC13": {
+  "status": "passed",
+  "actual": "error: \"Your account ID must be exactly 10 digits long.\"; URL: /"
+ },
+ "TC14": {
+  "status": "passed",
+  "actual": "error: \"User not found. Please check your account ID.\"; URL: /"
+ },
+ "TC15": {
+  "status": "passed",
+  "actual": "error: \"Your password should contain numbers only.\"; URL: /"
+ },
+ "TC16": {
+  "status": "passed",
+  "actual": "error: \"Your password must be exactly 4 digits long.\"; URL: /"
+ },
+ "TC17": {
+  "status": "passed",
+  "actual": "error: \"Your password must be exactly 4 digits long.\"; URL: /"
+ },
+ "TC18": {
+  "status": "passed",
+  "actual": "error: \"Incorrect password. Please try again.\"; URL: /"
+ },
+ "TC19": {
+  "status": "passed",
+  "actual": "browser validation: \"Please fill out this field.\" (form ไม่ถูกส่ง); balance = 500; URL: /account/"
+ },
+ "TC20": {
+  "status": "failed",
+  "actual": "browser validation: \"Please fill out this field.\" (form ไม่ถูกส่ง); balance = 0; URL: /account/"
+ },
+ "TC21": {
+  "status": "failed",
+  "actual": "browser validation: \"Please enter a valid value. The two nearest valid values are 10 and 11.\" (form ไม่ถูกส่ง); balance = 0; URL: /account/"
+ },
+ "TC22": {
+  "status": "passed",
+  "actual": "error: \"The amount must be greater than 0. Please enter a positive number.\"; balance = 0; URL: /account/"
+ },
+ "TC23": {
+  "status": "passed",
+  "actual": "browser validation: \"Please fill out this field.\" (form ไม่ถูกส่ง); balance = 700; URL: /account/"
+ },
+ "TC24": {
+  "status": "passed",
+  "actual": "error: \"Your balance is not enough to complete the withdrawal.\"; balance = 1000; URL: /account/"
+ },
+ "TC25": {
+  "status": "failed",
+  "actual": "browser validation: \"Please fill out this field.\" (form ไม่ถูกส่ง); balance = 0; URL: /account/"
+ },
+ "TC26": {
+  "status": "failed",
+  "actual": "browser validation: \"Please fill out this field.\" (form ไม่ถูกส่ง); balance = 1000; URL: /account/"
+ },
+ "TC27": {
+  "status": "failed",
+  "actual": "browser validation: \"Please enter a valid value. The two nearest valid values are 10 and 11.\" (form ไม่ถูกส่ง); balance = 1000; URL: /account/"
+ },
+ "TC28": {
+  "status": "passed",
+  "actual": "error: \"The amount must be greater than 0. Please enter a positive number.\"; balance = 1000; URL: /account/"
+ },
+ "TC29": {
+  "status": "passed",
+  "actual": "error: \"Your account ID should contain numbers only.\"; balance = 900; URL: /account/"
+ },
+ "TC30": {
+  "status": "passed",
+  "actual": "error: \"Your account ID must be exactly 10 digits long.\"; balance = 900; URL: /account/"
+ },
+ "TC31": {
+  "status": "passed",
+  "actual": "error: \"Your account ID must be exactly 10 digits long.\"; balance = 900; URL: /account/"
+ },
+ "TC32": {
+  "status": "passed",
+  "actual": "error: \"We couldn't find the recipient's account. Please double-check the account ID.\"; balance = 900; URL: /account/"
+ },
+ "TC33": {
+  "status": "passed",
+  "actual": "error: \"You cannot transfer to your own account.\"; balance = 900; URL: /account/"
+ },
+ "TC34": {
+  "status": "failed",
+  "actual": "browser validation: \"Please fill out this field.\" (form ไม่ถูกส่ง); balance = 900; URL: /account/"
+ },
+ "TC35": {
+  "status": "failed",
+  "actual": "browser validation: \"Please enter a valid value. The two nearest valid values are 10 and 11.\" (form ไม่ถูกส่ง); balance = 900; URL: /account/"
+ },
+ "TC36": {
+  "status": "passed",
+  "actual": "error: \"The amount must be greater than 0. Please enter a positive number.\"; balance = 900; URL: /account/"
+ },
+ "TC37": {
+  "status": "passed",
+  "actual": "error: \"Your balance is not enough to complete the transfer.\"; balance = 900; URL: /account/"
+ },
+ "TC38": {
+  "status": "passed",
+  "actual": "browser validation: \"Please select one of these options.\" (form ไม่ถูกส่ง); balance = 1000; URL: /account/"
+ },
+ "TC39": {
+  "status": "failed",
+  "actual": "browser validation: \"Please fill out this field.\" (form ไม่ถูกส่ง); balance = 1000; URL: /account/"
+ },
+ "TC40": {
+  "status": "failed",
+  "actual": "browser validation: \"Please enter a valid value. The two nearest valid values are 10 and 11.\" (form ไม่ถูกส่ง); balance = 1000; URL: /account/"
+ },
+ "TC41": {
+  "status": "passed",
+  "actual": "error: \"The amount must be greater than 0. Please enter a positive number.\"; balance = 1000; URL: /account/"
+ },
+ "TC42": {
+  "status": "passed",
+  "actual": "error: \"Your balance is not enough to complete the bill payment.\"; balance = 1000; URL: /account/"
+ },
+ "TC43": {
+  "status": "passed",
+  "actual": "browser validation: \"Please select one of these options.\" (form ไม่ถูกส่ง); balance = 700; URL: /account/"
+ },
+ "TC44": {
+  "status": "passed",
+  "actual": "browser validation: \"Please select one of these options.\" (form ไม่ถูกส่ง); balance = 400; URL: /account/"
+ },
+ "TC45": {
+  "status": "passed",
+  "actual": "browser validation: \"Please select one of these options.\" (form ไม่ถูกส่ง); balance = 100; URL: /account/"
+ },
+ "TC46": {
+  "status": "passed",
+  "actual": "browser validation: \"Please fill out this field.\" (form ไม่ถูกส่ง); balance = 700; URL: /account/"
+ },
+ "TC47": {
+  "status": "passed",
+  "actual": "ไม่มี error message; balance = 300; URL: /account/"
+ },
+ "TC48": {
+  "status": "passed",
+  "actual": "ไม่มี error message; URL: /"
+ }
+}
