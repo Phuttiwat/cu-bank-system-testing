@@ -10,5 +10,7 @@ module.exports = defineConfig({
     baseURL: 'http://localhost:3000',
     screenshot: 'only-on-failure',
     trace: 'retain-on-failure',
+    // SLOWMO=500 npx playwright test --headed  -> waits 500 ms between actions (for demos)
+    launchOptions: { slowMo: Number(process.env.SLOWMO) || 0 },
   },
 });

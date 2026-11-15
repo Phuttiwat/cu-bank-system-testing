@@ -105,7 +105,7 @@ test.describe('Scenario 1: Register ไม่ผ่าน', () => {
     await h.register(page, { ...ok, accountId: '1234567890' });
     await page.waitForURL((u) => u.pathname === '/');
     await recordActual(page, ERR.register, { alert: alertText }, 'l1');
-    expect(alertText).toMatch(/success/i);
+    expect(alertText).toBe('success');
   });
 
   const cases = [
