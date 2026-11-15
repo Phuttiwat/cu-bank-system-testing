@@ -1,7 +1,7 @@
 {
  "TC1": {
-  "status": "passed",
-  "actual": "ไม่มี error message; alert: \"Registration successful!\"; URL: /"
+  "status": "failed",
+  "actual": "browser validation: \"Please fill out this field.\" (form ไม่ถูกส่ง); alert: \"Registration successful!\"; URL: /"
  },
  "TC2": {
   "status": "passed",

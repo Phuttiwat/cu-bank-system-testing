@@ -54,7 +54,7 @@ Before every run, `global-setup.js` deletes four account numbers from the databa
 The setup uses `docker exec cubank-mongo ...`, so the MongoDB container must have that name.
 Do not run two test runs at the same time – they share the same accounts.
 
-## 3. Latest result: 37 passed, 11 failed
+## 3. Latest result: 36 passed, 12 failed
 Every failure is a difference between the system and the specification (the tests are not wrong).
 We report them; we do not fix the system.
 
@@ -66,3 +66,4 @@ We report them; we do not fix the system.
 | BUG-04 | TC5 | "...Please choose another." | "...Please use a different account ID." |
 | BUG-05 | TC9 | "Your fullname must be 30 characters or less, including spaces." | "The combined length of your first and last name must not exceed 30 characters." |
 | BUG-06 | TC10 (observed) | Account ID is shown on the Account page | Value under "Account ID:" is empty |
+| BUG-07 | TC1 | Message window "success" | Alert "Registration successful!" |
